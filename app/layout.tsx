@@ -1,10 +1,12 @@
-import { cn } from '@/lib/utils'
-import './globals.css'
-import type { Metadata } from 'next'
 import {  Open_Sans } from 'next/font/google'
 
-const font = Open_Sans({ subsets: ['latin'] })
+import { cn } from '@/lib/utils'
 
+import './globals.css'
+import type { Metadata } from 'next'
+
+
+const font = Open_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Team Chat Application',
