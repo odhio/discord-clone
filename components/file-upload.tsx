@@ -61,7 +61,6 @@ export const FileUpload = ({ onChange, value, endpoint }: FileUploadProps) => {
         onChange(res?.[0].url)
       }}
       onUploadError={(error: Error) => {
-        // eslint-disable-next-line no-console
         console.log(error)
       }}
     />

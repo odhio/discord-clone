@@ -86,7 +86,6 @@ export const EditChannelModal = () => {
       router.refresh()
       onClose()
     } catch (error) {
-      // eslint-disable-next-line no-console
       console.log(error)
     }
   }

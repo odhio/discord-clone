@@ -47,7 +47,6 @@ export const InviteModal = () => {
 
       onOpen('invite', { server: response.data })
     } catch (error) {
-      // eslint-disable-next-line no-console
       console.log(error)
     } finally {
       setIsLoading(false)

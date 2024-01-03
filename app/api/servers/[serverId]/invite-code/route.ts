@@ -31,7 +31,6 @@ export async function PATCH(
 
     return NextResponse.json(server)
   } catch (error) {
-    // eslint-disable-next-line no-console
     console.log('[SERVER_ID]', error)
     return new NextResponse('Internal Error', { status: 500 })
   }

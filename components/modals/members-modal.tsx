@@ -90,7 +90,6 @@ export const MembersModal = () => {
       router.refresh()
       onOpen('members', { server: response.data })
     } catch (error) {
-      // eslint-disable-next-line no-console
       console.log(error)
     } finally {
       setLoadingId('')
