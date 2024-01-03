@@ -7,6 +7,7 @@
   "plugins": [
     "@typescript-eslint",
     "react",
+    "prettier",
     "import",
     "unused-imports"
   ],
@@ -14,10 +15,17 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
+    "prettier",
     "next",
     "next/core-web-vitals"
   ],
   "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
